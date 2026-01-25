@@ -41,7 +41,7 @@ Finally, attach the X motor bracket, motor and limit switch. The fixing block at
 <img width="974" height="546" alt="image" src="https://github.com/user-attachments/assets/2d909ee4-6a4a-4774-bdd7-7d54f5e173b4" />
 
 # **Electronics**
-The components required for this project are a PSU, an MCU, a spindle or spindle kit, stepper motors, stepper drivers, and limit switches. For the MCU I decided on an arduino UNO because of its pin availability and GRBL compatibility. To power the UNO, I will use an LM2596 buck converter connected to the VIN pin. The PSU is 24v logic, 200w. Power is introduced to the PCB by screw terminals, and powers the VMOT pin of drivers, and 5v logic through the arduino. The steppers are Nema 17 because of their cheap cost and reliability. Drivers used to control these are A4988, which support 1/16 microstepping (why all MS pins are connected to 5v).
+The components required for this project are a PSU, an MCU, a spindle or spindle kit, stepper motors, stepper drivers, and limit switches. For the MCU I decided on an arduino UNO because of its pin availability and GRBL compatibility. To power the UNO, I will use an LM2596 buck converter connected to the VIN pin. The PSU is 24v logic, 200w. Power is introduced to the PCB by screw terminals, and powers the VMOT pin of drivers, and 5v logic through the arduino. The steppers are Nema 17 because of their cheap cost and reliability. Drivers used to control these are A4988, which support 1/16 microstepping (why all MS pins are connected to 5v). The 500w spindle comes as a kit including a mount and dedicated PSU. This kit also has speed control to stop the spindle. I am using standard 3 pin limit switches.
 
 
 ## Schematic
@@ -58,6 +58,61 @@ The PCB for this project interfaces the power supply, steppers, arduino and ends
 The project uses the GRBL library to command the machine. GRBL is a program that instructs the arduino to respond to G-code, sent by a computer. No modifications to GBRL are required other than tweaking default steps/mm, speed, acceleration etc to the machine. To install, copy the edited firmware folder into Arduino IDE libraries, include it in a sketch, and then flash.
 
 # **BOM**
+
+### CAD
+
+|Quantity|Name|Picture|
+|--------|----|-------|
+| 1 | Spindle plate | <img width="675" height="451" alt="image" src="https://github.com/user-attachments/assets/f4f76d41-1838-4317-9d8a-ff709e15b6e5" /> |
+| 1 | Gantry plate | <img width="567" height="614" alt="image" src="https://github.com/user-attachments/assets/6285ef4c-a36e-4e26-aa71-f8b299501174" /> |
+| 1 | X motor bracket | <img width="518" height="576" alt="image" src="https://github.com/user-attachments/assets/648021ec-2702-491f-81de-490d8c67f869" /> |
+| 2 | Y carriage | <img width="632" height="555" alt="image" src="https://github.com/user-attachments/assets/f7edcb3a-454c-4e05-9fb7-dee49ce696b4" /> |
+| 1 | Y bearing bracket with switch | <img width="757" height="593" alt="image" src="https://github.com/user-attachments/assets/935fea4a-20db-482b-b633-ecb436667b53" /> |
+| 3 | Y bearing bracket | <img width="523" height="515" alt="image" src="https://github.com/user-attachments/assets/b4236f06-82d1-4c1a-9237-2909b8e5005b" /> |
+| 1 | Belt plate | <img width="731" height="601" alt="image" src="https://github.com/user-attachments/assets/acbe5c30-0acc-4a8e-8016-523317a8e281" /> |
+
+### PCB
+
+2 layer PCB that is 127x118mm.
+<img width="1092" height="844" alt="image" src="https://github.com/user-attachments/assets/d6218747-62ee-43d4-b0b5-1abb7ab3e8f1" />
+
+### Parts
+3x Nema 17 stepper motor
+1x Arduino uno
+3x A4988 stepper driver
+1x 24v 200w PSU
+1x 500w Spindle kit
+1x LM2596 Buck converter
+3x Limit switch
+1x V bit
+1x Drill bit
+1x End mill
+1x Collet
+6x 300mm 2020 T slot aluminium profile (can do 4x300mm and 2x 200mm, but 6x300mm ended up being cheaper)
+1x 300mm 2060 T slot profile
+8x 90 degree connector
+42x M5 T nut
+42x M5 screw
+32x M3 screw
+32x M3 T nut
+1x 100mm T8x8 Leadscrew
+3x 300mm T8x8 leadscrew
+2x 100mm MGN12 linear rail (with MGN12H carriage)
+4x 300mm MGN12 linear rail (with MGN12H carriage)
+4x T8x8 nutblock 2mm pitch
+2x 5x8mm shaft coupler
+1x 5mm bore GT2 timing gear
+2x 8mm bore GT2 timing gear
+1x GT2 belt (at least 600mm)
+2x Toothed GT2 idle pulley
+2x Smooth GT2 idle pulley
+4x Leadscrew fixing block
+1x 16x8x5 bearing
+1x spoilboard (any wooden sheet)
+
+
+
+
 
 
 
