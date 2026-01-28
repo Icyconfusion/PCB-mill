@@ -1,5 +1,6 @@
 # PCB-mill
 A small cnc machine for milling FR4 pcbs using an arduino UNO. It is also capable of CNC engraving at low Z travels. You could potentially do laser engraving if you added a laser to it.
+**Note to reveiwer:** I cannot export my entire assembly as .STEP. Instead I have exported the F3Z file and a zipped STL of the assembly (It was too large to be uploaded unzipped). I am working on exporting the assembly as STEP before it gets reviewed but at the present moment I am not able to export as STEP. Also I am updating my BOM with the current prices (since submission) so it might be slightly different (most are cheaper) from my cart pictures. Thank you :)
 
 I created this project as a means to create PCBs quickly at home, removing the time and cost of ordering PCBs online. Now I can make 2 layer PCBs at home on my desk for quick prototyping. It also taught me a few things about routing with power draws.
 
