@@ -78,37 +78,69 @@ The project uses the GRBL library to command the machine. GRBL is a program that
 
 ### Parts
 3x Nema 17 stepper motor
+
 1x Arduino uno
+
 3x A4988 stepper driver
+
 1x 24v 200w PSU
+
 1x 500w Spindle kit
+
 1x LM2596 Buck converter
+
 3x Limit switch
+
 1x V bit
+
 1x Drill bit
+
 1x End mill
+
 1x Collet
+
 6x 300mm 2020 T slot aluminium profile (can do 4x300mm and 2x 200mm, but 6x300mm ended up being cheaper)
+
 1x 300mm 2060 T slot profile
+
 8x 90 degree connector
+
 42x M5 T nut
+
 42x M5 screw
+
 32x M3 screw
+
 32x M3 T nut
+
 1x 100mm T8x8 Leadscrew
+
 3x 300mm T8x8 leadscrew
+
 2x 100mm MGN12 linear rail (with MGN12H carriage)
+
 4x 300mm MGN12 linear rail (with MGN12H carriage)
+
 4x T8x8 nutblock 2mm pitch
+
 2x 5x8mm shaft coupler
+
 1x 5mm bore GT2 timing gear
+
 2x 8mm bore GT2 timing gear
+
 1x GT2 belt (at least 600mm)
+
 2x Toothed GT2 idle pulley
+
 2x Smooth GT2 idle pulley
+
 4x Leadscrew fixing block
+
 1x 16x8x5 bearing
+
 1x spoilboard (any wooden sheet)
+
 
 
 
