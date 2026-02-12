@@ -1,7 +1,7 @@
 # PCB-mill
 A small cnc machine for milling FR4 pcbs using an arduino UNO. It is also capable of CNC engraving at low Z travels. You could potentially do laser engraving if you added a laser to it.
 
-**Note to reveiwer:** I have exported the assembly as .STEP, but I had trouble so there is a zipped .stl of the assembly just in case the .step doesn't work. Also I am updating my BOM with the current prices (since submission) so it might be slightly different (most are cheaper) from my cart pictures. Thank you :)
+**Note to reveiwer:** I have exported the assembly as .STEP, but I had trouble so there is a zipped .stl of the assembly just in case the .step doesn't work. Also I am updating my BOM with the current prices (since submission) so it might be slightly different (most are cheaper) from my cart pictures. Thank you :) Also, yes the spindle is the cheapest option (prices are in AUD so 50-60 USD is 75-90 AUD). The spindle I am purchasing also includes PSU.
 
 I created this project as a means to create PCBs quickly at home, removing the time and cost of ordering PCBs online. Now I can make 2 layer PCBs at home on my desk for quick prototyping. It also taught me a few things about routing with power draws.
 
