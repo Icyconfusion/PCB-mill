@@ -3,7 +3,7 @@ A small cnc machine for milling FR4 pcbs using an arduino UNO. It is also capabl
 
 **Note to reveiwer:** I have exported the assembly as .STEP, but I had trouble so there is a zipped .stl of the assembly just in case the .step doesn't work. Also I am updating my BOM with the current prices (since submission) so it might be slightly different (most are cheaper) from my cart pictures. Thank you :) Also, yes the spindle is the cheapest option (prices are in AUD so 50-60 USD is 75-90 AUD). The spindle I am purchasing also includes PSU.
 
-I created this project as a means to create PCBs quickly at home, removing the time and cost of ordering PCBs online. Now I can make 2 layer PCBs at home on my desk for quick prototyping. It also taught me a few things about routing with power draws.
+I created this project as a means to create PCBs quickly at home, removing the time and cost of ordering PCBs online. Now I can make 2 layer PCBs at home on my desk for quick prototyping. It also taught me a few things about routing with power draws. To use the project, you simply stream Gcode to the machine over usb form a computer, and the machine will replicate it.
 
 # **Assembly**
 <img width="1024" height="651" alt="image" src="https://github.com/user-attachments/assets/3a24b912-21b6-4d6f-9ddc-5160c301b258" />
