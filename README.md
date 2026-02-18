@@ -48,6 +48,9 @@ The components required for this project are a PSU, an MCU, a spindle or spindle
 
 ## Schematic
 <img width="1684" height="757" alt="image" src="https://github.com/user-attachments/assets/93f06778-8977-41c3-aa99-a4eb274e7dfb" />
+Cirkit designer: https://app.cirkitdesigner.com/project/915723a2-d3f0-4d32-8109-c895c4144bcc
+<img width="841" height="672" alt="Screenshot 2026-02-18 115255" src="https://github.com/user-attachments/assets/ba750bf0-12a6-4a1e-b29a-8d592fe65479" />
+
 
 
 ## PCB
@@ -57,7 +60,7 @@ The PCB for this project interfaces the power supply, steppers, arduino and ends
 
 
 # **Firmware**
-The project uses the GRBL library to command the machine. GRBL is a program that instructs the arduino to respond to G-code, sent by a computer. No modifications to GBRL are required other than tweaking default steps/mm, speed, acceleration etc to the machine. To install, copy the edited firmware folder into Arduino IDE libraries, include it in a sketch, and then flash.
+The project uses the GRBL library to command the machine. GRBL is a program that instructs the arduino to respond to G-code, sent by a computer. No modifications to GBRL are required other than tweaking default steps/mm, speed, acceleration etc to the machine. To install, copy the edited firmware folder into Arduino IDE libraries, include it in a sketch, and then flash. **It is installed as a zip.**
 
 # **BOM**
 
